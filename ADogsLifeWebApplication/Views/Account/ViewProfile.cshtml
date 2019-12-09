@@ -1,0 +1,134 @@
+﻿@model ADogsLifeWebApplication.ViewModels.Account.UserDetailsViewModel
+@using ADogsLifeWebApplication.Models.Users
+@inject UserManager<ApplicationUser> UserManager;
+@inject SignInManager<ApplicationUser> SignInManager;
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="form-group row m-3">
+            <h1 class="card-header" id="indexUserHeader">
+                @Model.User.FullName
+            </h1>
+        </div>
+        <div class="form-group row landingRow">
+            <div class="form-group col m-4">
+                <div>
+                    <h1 class="prop-headers">Description</h1>
+                    <p>
+                        @if (!string.IsNullOrEmpty(Model.User.Description))
+                        {
+                            @Model.User.Description
+                        }
+                        else
+                        {
+                            <span>Description field is currently empty. Edit your profile to add a little about you!</span>
+                        }
+                    </p>
+                </div>
+                <div>
+                    <h1 class="prop-headers">Country</h1>
+                    <p>
+                        @Model.User.Country
+                    </p>
+                </div>
+                <div>
+                    <h1 class="prop-headers">Phone Number</h1>
+                    <p >
+                        @if (!string.IsNullOrEmpty(Model.User.PhoneNumber))
+                        {
+                            @Model.User.PhoneNumber
+                        }
+                        else
+                        {
+                            <span>Phone Number field is currently empty. Edit your profile to add a way to contact you!</span>
+                        }
+                    </p>
+                </div>
+                <div>
+                    <h1 class="prop-headers">Email Address</h1>
+                    <p>
+                        @Model.User.Email
+                    </p>
+                </div>
+                <div>
+                    <h1 class="prop-headers">Fur Babes</h1>
+                    <p>
+                    </p>
+                </div>
+                <form enctype="multipart/form-data">
+                    <div>    
+                        <div>
+                            @if (User.Identity.Name == Model.User.Email || User.IsInRole("Admin"))
+                            {
+                                <a class="btn btn-dark" asp-controller="Account" asp-action="RegisterDog" asp-route-id="@Model.User.Id">Add Doggo!</a>
+                            }
+                        </div>
+                        @foreach (Dog dog in Model.Dogs)
+                        {
+                            string photoPath = "../Images/UserImages/" + dog.Id + "/" + dog.PhotoPath;
+                            <div class="container m-4">
+                                <div class="front" style="background-image: url(@photoPath)">
+                                    <div class="inner">
+                                        <p style="font-size: 40px">@dog.FirstName @dog.MiddleName</p>
+                                        <span style="font-size: 25px">@dog.Breed</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <div class="row">
+                                            <a asp-controller="Account" asp-action="ViewDog" asp-route-id="@dog.Id" title="View Profile" class="btn btn-dark m-1">View</a>
+                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                            {
+                                                <a asp-controller="Administration" asp-action="EditDog" asp-route-id="@dog.Id" title="Edit Profile" class="btn btn-dark m-1">Edit</a>
+                                            }
+                                        </div>
+                                        <div class="row">
+                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                            {
+                                                <span class="row" id="confirmDeleteSpan_@dog.Id" style="display: none">
+                                                    <span>Are you sure you want to delete?</span>
+                                                    <button type="submit" class="btn btn-danger m-1">Yes</button>
+                                                    <a href="javascript:void();" class="btn btn-dark m-1" onclick="confirmDelete('@dog.Id', false)">No</a>
+                                                </span>
+                                                <span id="deleteSpan_@dog.Id">
+                                                    <a href="javascript:void();" class="btn btn-danger m-1" onclick="confirmDelete('@dog.Id', true)">Delete</a>
+                                                </span>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </form>
+            </div>
+            <div class="form-group col m-4">
+                <h1 class="prop-headers">Profile Photo:</h1>
+                <hr/>
+                <img class="img-rounded-corners img-view-profile golden-box-shadow" src="~/images/UserImages/@Model.User.Id/@Model.User.PhotoPath" alt=""/>
+            </div>
+        </div>
+        <form enctype="multipart/form-data">
+            <div class="form-group row">
+                @if (Model.User.UserName == User.Identity.Name && !User.IsInRole("Admin"))
+                {
+                    <a style="width: auto;" type="submit" class="btn btn-dark m-3" asp-controller="Account" asp-action="EditProfile" asp-route-id="@Model.User.Id">Edit Profile</a>
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    <a style="width: auto" type="submit" class="btn btn-dark m-3" asp-controller="Administration" asp-action="EditUser" asp-route-id="@Model.User.Id">Edit Profile</a>
+                }
+                <button class="btn btn-danger m-3" onclick="history.go(-1)">Back</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+
+}

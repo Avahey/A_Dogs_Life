@@ -1,0 +1,116 @@
+﻿@using ADogsLifeWebApplication.Models.Users
+@inject SignInManager<ApplicationUser> SignInManager;
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<nav>
+    <div class="navbar-expand-lg nav-bg navbar-collapse">
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <ul class="navbar-nav ml-auto" style="float: left">
+                <li class="nav-item">
+                    <a asp-action="Index" asp-controller="Home" class="nav-link py-0">List</a>
+                </li>
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a asp-action="Register" asp-controller="Account" class="nav-link py-0">Create</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle dropdown-text py-0" href="javascript:void()" style="color: white">Manage</a>
+                        <div class="dropdown-content" style="text-shadow: none">
+                            <a class="dropdown-item py-0" asp-controller="Administration" asp-action="ListUsers">Users</a>
+                            <a class="dropdown-item py-0" asp-controller="Administration" asp-action="ListRoles">Roles</a>
+                        </div>
+                    </li>
+                }
+            </ul>
+            <ul class="navbar-nav ml-auto" style="float: right">
+                <li class="nav-item">
+                    <form method="post" asp-action="Logout" asp-controller="Account">
+                        <button type="submit" class="nav-link btn btn-link py-0" style="width: auto;">Logout @User.Identity.Name</button>
+                    </form>
+                </li>
+            </ul>
+        }
+        else
+        {
+            <ul class="navbar-nav ml-auto" style="float: right">
+                <li class="nav-item">
+                    <a asp-action="Login" asp-controller="Account" class="nav-link py-0">Login</a>
+                </li>
+            </ul>
+        }
+    </div>
+</nav>
+<div class="hero">
+    <h1>
+        <div class="word">
+            <span class="headerText">A </span>
+            <span>D</span>
+            <span>O</span>
+            <span>G'</span>
+            <span>S</span>
+            <span class="headerText">L</span>
+            <span class="headerText">I</span>
+            <span class="headerText">F</span>
+            <span class="headerText">E</span>
+            <hr style="border-color: goldenrod; border-width: 5px; width: 70%"/>
+        </div>
+    </h1>
+</div>
+<div class="content-wrapper">
+    @RenderBody()
+</div>
+
+@if (IsSectionDefined("Scripts"))
+{
+    @RenderSection("Scripts", true)
+}
+<script>
+        $(document).ready(function() {
+            $(window).on('scroll', function() {
+                if($(window).scrollTop() < 1000) {
+                    $('.hero').css('background-size', 130 + ($(window).scrollTop() / 5) + '%');
+                    $('.hero h1').css('top', 50 + ($(window).scrollTop() * .1) + '%').css('opacity', 1 - ($(window).scrollTop() * .003));
+                }
+    
+                if($(window).scrollTop() >= $('.content-wrapper').offset().top - 300) {
+                    $('.nav-bg').removeClass('bg-hidden').addClass('bg-visible');
+                } else {
+                    $('.nav-bg').removeClass('bg-visible').addClass('bg-hidden');
+                }
+            });
+        });
+</script>
+
+<!--suppress BadExpressionStatementJS, JSUnresolvedVariable, CommaExpressionJS, JSUnnecessarySemicolon, UnterminatedStatementJS -->
+<script>
+    let spans = document.querySelectorAll('.word span');
+    spans.forEach((span, idx) => {
+        span.addEventListener('click', (e) => {
+            e.target.classList.add('active');
+        });
+        span.addEventListener('animationend', (e) => {
+            e.target.classList.remove('active');
+        });
+        
+        // Initial animation
+        setTimeout(() => {
+            span.classList.add('active');
+        }, 750 * (idx+1))
+    });
+</script>
+</body>
+
+</html>

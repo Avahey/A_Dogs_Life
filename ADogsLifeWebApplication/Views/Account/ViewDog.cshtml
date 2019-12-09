@@ -1,0 +1,73 @@
+﻿@model ADogsLifeWebApplication.ViewModels.Account.DogDetailsViewModel
+@using ADogsLifeWebApplication.Models.Users
+@inject UserManager<ApplicationUser> UserManager;
+@inject SignInManager<ApplicationUser> SignInManager;
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<form enctype="multipart/form-data" >
+    <div class="container-fluid">
+        <div class="card">
+            <div class="form-group row m-3">
+                <h1 class="card-header" id="indexUserHeader">
+                    @Model.Dog.FullName
+                </h1>
+            </div>
+            <div class="form-group row landingRow">
+                <div class="form-group col m-4">
+                    <div>
+                        <h1 class="prop-headers">Description</h1>
+                        <p>
+                            @if (!String.IsNullOrEmpty(Model.Dog.Description))
+                            {
+                                @Model.Dog.Description
+                            }
+                            else
+                            {
+                                <span>Description field is currently empty. Edit your profile to add a little about you!</span>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="prop-headers">Breed</h1>
+                        <p>
+                            @Model.Dog.Breed
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="prop-headers">Favorite Toy</h1>
+                        <p >
+                            @if (!string.IsNullOrEmpty(Model.Dog.FavoriteToy))
+                            {
+                                @Model.Dog.FavoriteToy
+                            }
+                            else
+                            {
+                                <span>@Model.Dog.FirstName's doesn't seem to have a favorite toy. Update their profile to show their furends what they like to play with!</span>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="prop-headers">Parents</h1>
+                        <p>
+                            @foreach (ApplicationUser user in UserManager.Users)
+                            {
+                                @if (user.Id == Model.Dog.IdParent)
+                                {
+                                    @user.FullName;
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts
+    {
+
+    }
+</form>

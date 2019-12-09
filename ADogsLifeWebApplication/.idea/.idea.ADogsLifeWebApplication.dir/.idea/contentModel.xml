@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\John\.nuget\packages\nlog.schema\4.6.8\contentFiles\any\any\NLog.xsd" t="Include" />
+    <e p="C:\Users\John\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\John\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\John\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\John\RiderProjects\ADogsLifeWebApplication\ADogsLifeWebApplication" t="IncludeRecursive">
+      <e p="ADogsLifeWebApplication.csproj" t="IncludeRecursive" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Configs" t="Include">
+        <e p="nlog.Config" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="AccountController.cs" t="Include" />
+        <e p="AdministrationController.cs" t="Include" />
+        <e p="ErrorController.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+      </e>
+      <e p="libman.json" t="Include" />
+      <e p="Models" t="Include">
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="SQLDogRepository.cs" t="Include" />
+        <e p="Users" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
+          <e p="Countries.cs" t="Include" />
+          <e p="Dog.cs" t="Include" />
+          <e p="IDogRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="ADogsLifeWebApplication.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="site" t="Include">
+        <e p="ADogsLifeWebApplication.deps.json" t="Include" />
+        <e p="ADogsLifeWebApplication.dll" t="Include" />
+        <e p="ADogsLifeWebApplication.exe" t="Include" />
+        <e p="ADogsLifeWebApplication.pdb" t="Include" />
+        <e p="ADogsLifeWebApplication.runtimeconfig.json" t="Include" />
+        <e p="ADogsLifeWebApplication.Views.dll" t="Include" />
+        <e p="ADogsLifeWebApplication.Views.pdb" t="Include" />
+        <e p="api-ms-win-core-console-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-datetime-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-debug-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-errorhandling-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-file-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-file-l1-2-0.dll" t="Include" />
+        <e p="api-ms-win-core-file-l2-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-handle-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-heap-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-interlocked-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-libraryloader-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-localization-l1-2-0.dll" t="Include" />
+        <e p="api-ms-win-core-memory-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-namedpipe-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-processenvironment-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-processthreads-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-processthreads-l1-1-1.dll" t="Include" />
+        <e p="api-ms-win-core-profile-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-rtlsupport-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-string-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-synch-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-synch-l1-2-0.dll" t="Include" />
+        <e p="api-ms-win-core-sysinfo-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-timezone-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-core-util-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-conio-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-convert-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-environment-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-filesystem-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-heap-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-locale-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-math-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-multibyte-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-private-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-process-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-runtime-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-stdio-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-string-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-time-l1-1-0.dll" t="Include" />
+        <e p="api-ms-win-crt-utility-l1-1-0.dll" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="aspnetcorev2_inprocess.dll" t="Include" />
+        <e p="clrcompression.dll" t="Include" />
+        <e p="clretwrc.dll" t="Include" />
+        <e p="clrjit.dll" t="Include" />
+        <e p="Configs" t="Include">
+          <e p="nlog.Config" t="Include" />
+        </e>
+        <e p="coreclr.dll" t="Include" />
+        <e p="Countries.Core.dll" t="Include" />
+        <e p="dbgshim.dll" t="Include" />
+        <e p="hostfxr.dll" t="Include" />
+        <e p="hostpolicy.dll" t="Include" />
+        <e p="libman.json" t="Include" />
+        <e p="Microsoft.AspNetCore.Antiforgery.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authentication.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authentication.Cookies.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authentication.Core.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authentication.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authentication.OAuth.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authorization.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Authorization.Policy.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Components.Authorization.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Components.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Components.Forms.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Components.Server.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Components.Web.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Connections.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.CookiePolicy.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Cors.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Cryptography.Internal.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.DataProtection.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.DataProtection.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.DataProtection.Extensions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Diagnostics.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Diagnostics.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Diagnostics.HealthChecks.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.HostFiltering.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Hosting.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Hosting.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Html.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.Connections.Common.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.Connections.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.Extensions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Http.Features.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.HttpOverrides.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.HttpsPolicy.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Identity.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Localization.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Localization.Routing.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Metadata.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.ApiExplorer.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Core.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Cors.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.DataAnnotations.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Formatters.Json.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Localization.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.Razor.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.RazorPages.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.TagHelpers.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Mvc.ViewFeatures.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Razor.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Razor.Runtime.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.ResponseCaching.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.ResponseCompression.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Rewrite.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Routing.Abstractions.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Routing.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.HttpSys.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.IIS.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.IISIntegration.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.Kestrel.Core.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.Kestrel.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.Session.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.SignalR.Common.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.SignalR.Core.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.SignalR.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.SignalR.Protocols.Json.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.StaticFiles.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.WebSockets.dll" t="Include" />
+        <e p="Microsoft.AspNetCore.WebUtilities.dll" t="Include" />
+        <e p="Microsoft.Bcl.AsyncInterfaces.dll" t="Include" />
+        <e p="Microsoft.Bcl.HashCode.dll" t="Include" />
+        <e p="Microsoft.CSharp.dll" t="Include" />
+        <e p="Microsoft.Data.SqlClient.dll" t="Include" />
+        <e p="Microsoft.DiaSymReader.Native.amd64.dll" t="Include" />
+        <e p="Microsoft.EntityFrameworkCore.Abstractions.dll" t="Include" />
+        <e p="Microsoft.EntityFrameworkCore.Design.dll" t="Include" />
+        <e p="Microsoft.EntityFrameworkCore.dll" t="Include" />
+        <e p="Microsoft.EntityFrameworkCore.Relational.dll" t="Include" />
+        <e p="Microsoft.EntityFrameworkCore.SqlServer.dll" t="Include" />
+        <e p="Microsoft.Extensions.Caching.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Caching.Memory.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.Binder.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.CommandLine.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.EnvironmentVariables.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.FileExtensions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.Ini.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.Json.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.KeyPerFile.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.UserSecrets.dll" t="Include" />
+        <e p="Microsoft.Extensions.Configuration.Xml.dll" t="Include" />
+        <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.DependencyInjection.dll" t="Include" />
+        <e p="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Diagnostics.HealthChecks.dll" t="Include" />
+        <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.FileProviders.Composite.dll" t="Include" />
+        <e p="Microsoft.Extensions.FileProviders.Embedded.dll" t="Include" />
+        <e p="Microsoft.Extensions.FileProviders.Physical.dll" t="Include" />
+        <e p="Microsoft.Extensions.FileSystemGlobbing.dll" t="Include" />
+        <e p="Microsoft.Extensions.Hosting.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Hosting.dll" t="Include" />
+        <e p="Microsoft.Extensions.Http.dll" t="Include" />
+        <e p="Microsoft.Extensions.Identity.Core.dll" t="Include" />
+        <e p="Microsoft.Extensions.Identity.Stores.dll" t="Include" />
+        <e p="Microsoft.Extensions.Localization.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Localization.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.Configuration.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.Console.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.Debug.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.EventLog.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.EventSource.dll" t="Include" />
+        <e p="Microsoft.Extensions.Logging.TraceSource.dll" t="Include" />
+        <e p="Microsoft.Extensions.ObjectPool.dll" t="Include" />
+        <e p="Microsoft.Extensions.Options.ConfigurationExtensions.dll" t="Include" />
+        <e p="Microsoft.Extensions.Options.DataAnnotations.dll" t="Include" />
+        <e p="Microsoft.Extensions.Options.dll" t="Include" />
+        <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+        <e p="Microsoft.Extensions.WebEncoders.dll" t="Include" />
+        <e p="Microsoft.Identity.Client.dll" t="Include" />
+        <e p="Microsoft.JSInterop.dll" t="Include" />
+        <e p="Microsoft.Net.Http.Headers.dll" t="Include" />
+        <e p="Microsoft.VisualBasic.Core.dll" t="Include" />
+        <e p="Microsoft.VisualBasic.dll" t="Include" />
+        <e p="Microsoft.Win32.Primitives.dll" t="Include" />
+        <e p="Microsoft.Win32.Registry.dll" t="Include" />
+        <e p="Microsoft.Win32.SystemEvents.dll" t="Include" />
+        <e p="mscordaccore.dll" t="Include" />
+        <e p="mscordaccore_amd64_amd64_4.700.19.50403.dll" t="Include" />
+        <e p="mscordbi.dll" t="Include" />
+        <e p="mscorlib.dll" t="Include" />
+        <e p="mscorrc.debug.dll" t="Include" />
+        <e p="mscorrc.dll" t="Include" />
+        <e p="netstandard.dll" t="Include" />
+        <e p="Newtonsoft.Json.dll" t="Include" />
+        <e p="NLog.dll" t="Include" />
+        <e p="NLog.Extensions.Logging.dll" t="Include" />
+        <e p="NLog.Web.AspNetCore.dll" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="sni.dll" t="Include" />
+        <e p="SOS_README.md" t="Include" />
+        <e p="Splunk.Logging.Common.dll" t="Include" />
+        <e p="Splunk.Logging.TraceListener.dll" t="Include" />
+        <e p="System.AppContext.dll" t="Include" />
+        <e p="System.Buffers.dll" t="Include" />
+        <e p="System.Collections.Concurrent.dll" t="Include" />
+        <e p="System.Collections.dll" t="Include" />
+        <e p="System.Collections.Immutable.dll" t="Include" />
+        <e p="System.Collections.NonGeneric.dll" t="Include" />
+        <e p="System.Collections.Specialized.dll" t="Include" />
+        <e p="System.ComponentModel.Annotations.dll" t="Include" />
+        <e p="System.ComponentModel.DataAnnotations.dll" t="Include" />
+        <e p="System.ComponentModel.dll" t="Include" />
+        <e p="System.ComponentModel.EventBasedAsync.dll" t="Include" />
+        <e p="System.ComponentModel.Primitives.dll" t="Include" />
+        <e p="System.ComponentModel.TypeConverter.dll" t="Include" />
+        <e p="System.Configuration.ConfigurationManager.dll" t="Include" />
+        <e p="System.Configuration.dll" t="Include" />
+        <e p="System.Console.dll" t="Include" />
+        <e p="System.Core.dll" t="Include" />
+        <e p="System.Data.Common.dll" t="Include" />
+        <e p="System.Data.DataSetExtensions.dll" t="Include" />
+        <e p="System.Data.dll" t="Include" />
+        <e p="System.Diagnostics.Contracts.dll" t="Include" />
+        <e p="System.Diagnostics.Debug.dll" t="Include" />
+        <e p="System.Diagnostics.DiagnosticSource.dll" t="Include" />
+        <e p="System.Diagnostics.EventLog.dll" t="Include" />
+        <e p="System.Diagnostics.FileVersionInfo.dll" t="Include" />
+        <e p="System.Diagnostics.Process.dll" t="Include" />
+        <e p="System.Diagnostics.StackTrace.dll" t="Include" />
+        <e p="System.Diagnostics.TextWriterTraceListener.dll" t="Include" />
+        <e p="System.Diagnostics.Tools.dll" t="Include" />
+        <e p="System.Diagnostics.TraceSource.dll" t="Include" />
+        <e p="System.Diagnostics.Tracing.dll" t="Include" />
+        <e p="System.dll" t="Include" />
+        <e p="System.Drawing.Common.dll" t="Include" />
+        <e p="System.Drawing.dll" t="Include" />
+        <e p="System.Drawing.Primitives.dll" t="Include" />
+        <e p="System.Dynamic.Runtime.dll" t="Include" />
+        <e p="System.Globalization.Calendars.dll" t="Include" />
+        <e p="System.Globalization.dll" t="Include" />
+        <e p="System.Globalization.Extensions.dll" t="Include" />
+        <e p="System.IO.Compression.Brotli.dll" t="Include" />
+        <e p="System.IO.Compression.dll" t="Include" />
+        <e p="System.IO.Compression.FileSystem.dll" t="Include" />
+        <e p="System.IO.Compression.ZipFile.dll" t="Include" />
+        <e p="System.IO.dll" t="Include" />
+        <e p="System.IO.FileSystem.AccessControl.dll" t="Include" />
+        <e p="System.IO.FileSystem.dll" t="Include" />
+        <e p="System.IO.FileSystem.DriveInfo.dll" t="Include" />
+        <e p="System.IO.FileSystem.Primitives.dll" t="Include" />
+        <e p="System.IO.FileSystem.Watcher.dll" t="Include" />
+        <e p="System.IO.IsolatedStorage.dll" t="Include" />
+        <e p="System.IO.MemoryMappedFiles.dll" t="Include" />
+        <e p="System.IO.Pipelines.dll" t="Include" />
+        <e p="System.IO.Pipes.AccessControl.dll" t="Include" />
+        <e p="System.IO.Pipes.dll" t="Include" />
+        <e p="System.IO.UnmanagedMemoryStream.dll" t="Include" />
+        <e p="System.Linq.dll" t="Include" />
+        <e p="System.Linq.Expressions.dll" t="Include" />
+        <e p="System.Linq.Parallel.dll" t="Include" />
+        <e p="System.Linq.Queryable.dll" t="Include" />
+        <e p="System.Memory.dll" t="Include" />
+        <e p="System.Net.dll" t="Include" />
+        <e p="System.Net.Http.dll" t="Include" />
+        <e p="System.Net.HttpListener.dll" t="Include" />
+        <e p="System.Net.Mail.dll" t="Include" />
+        <e p="System.Net.NameResolution.dll" t="Include" />
+        <e p="System.Net.NetworkInformation.dll" t="Include" />
+        <e p="System.Net.Ping.dll" t="Include" />
+        <e p="System.Net.Primitives.dll" t="Include" />
+        <e p="System.Net.Requests.dll" t="Include" />
+        <e p="System.Net.Security.dll" t="Include" />
+        <e p="System.Net.ServicePoint.dll" t="Include" />
+        <e p="System.Net.Sockets.dll" t="Include" />
+        <e p="System.Net.WebClient.dll" t="Include" />
+        <e p="System.Net.WebHeaderCollection.dll" t="Include" />
+        <e p="System.Net.WebProxy.dll" t="Include" />
+        <e p="System.Net.WebSockets.Client.dll" t="Include" />
+        <e p="System.Net.WebSockets.dll" t="Include" />
+        <e p="System.Numerics.dll" t="Include" />
+        <e p="System.Numerics.Vectors.dll" t="Include" />
+        <e p="System.ObjectModel.dll" t="Include" />
+        <e p="System.Private.CoreLib.dll" t="Include" />
+        <e p="System.Private.DataContractSerialization.dll" t="Include" />
+        <e p="System.Private.Uri.dll" t="Include" />
+        <e p="System.Private.Xml.dll" t="Include" />
+        <e p="System.Private.Xml.Linq.dll" t="Include" />
+        <e p="System.Reflection.DispatchProxy.dll" t="Include" />
+        <e p="System.Reflection.dll" t="Include" />
+        <e p="System.Reflection.Emit.dll" t="Include" />
+        <e p="System.Reflection.Emit.ILGeneration.dll" t="Include" />
+        <e p="System.Reflection.Emit.Lightweight.dll" t="Include" />
+        <e p="System.Reflection.Extensions.dll" t="Include" />
+        <e p="System.Reflection.Metadata.dll" t="Include" />
+        <e p="System.Reflection.Primitives.dll" t="Include" />
+        <e p="System.Reflection.TypeExtensions.dll" t="Include" />
+        <e p="System.Resources.Reader.dll" t="Include" />
+        <e p="System.Resources.ResourceManager.dll" t="Include" />
+        <e p="System.Resources.Writer.dll" t="Include" />
+        <e p="System.Runtime.Caching.dll" t="Include" />
+        <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+        <e p="System.Runtime.CompilerServices.VisualC.dll" t="Include" />
+        <e p="System.Runtime.dll" t="Include" />
+        <e p="System.Runtime.Extensions.dll" t="Include" />
+        <e p="System.Runtime.Handles.dll" t="Include" />
+        <e p="System.Runtime.InteropServices.dll" t="Include" />
+        <e p="System.Runtime.InteropServices.RuntimeInformation.dll" t="Include" />
+        <e p="System.Runtime.InteropServices.WindowsRuntime.dll" t="Include" />
+        <e p="System.Runtime.Intrinsics.dll" t="Include" />
+        <e p="System.Runtime.Loader.dll" t="Include" />
+        <e p="System.Runtime.Numerics.dll" t="Include" />
+        <e p="System.Runtime.Serialization.dll" t="Include" />
+        <e p="System.Runtime.Serialization.Formatters.dll" t="Include" />
+        <e p="System.Runtime.Serialization.Json.dll" t="Include" />
+        <e p="System.Runtime.Serialization.Primitives.dll" t="Include" />
+        <e p="System.Runtime.Serialization.Xml.dll" t="Include" />
+        <e p="System.Runtime.WindowsRuntime.dll" t="Include" />
+        <e p="System.Runtime.WindowsRuntime.UI.Xaml.dll" t="Include" />
+        <e p="System.Security.AccessControl.dll" t="Include" />
+        <e p="System.Security.Claims.dll" t="Include" />
+        <e p="System.Security.Cryptography.Algorithms.dll" t="Include" />
+        <e p="System.Security.Cryptography.Cng.dll" t="Include" />
+        <e p="System.Security.Cryptography.Csp.dll" t="Include" />
+        <e p="System.Security.Cryptography.Encoding.dll" t="Include" />
+        <e p="System.Security.Cryptography.OpenSsl.dll" t="Include" />
+        <e p="System.Security.Cryptography.Pkcs.dll" t="Include" />
+        <e p="System.Security.Cryptography.Primitives.dll" t="Include" />
+        <e p="System.Security.Cryptography.ProtectedData.dll" t="Include" />
+        <e p="System.Security.Cryptography.X509Certificates.dll" t="Include" />
+        <e p="System.Security.Cryptography.Xml.dll" t="Include" />
+        <e p="System.Security.dll" t="Include" />
+        <e p="System.Security.Permissions.dll" t="Include" />
+        <e p="System.Security.Principal.dll" t="Include" />
+        <e p="System.Security.Principal.Windows.dll" t="Include" />
+        <e p="System.Security.SecureString.dll" t="Include" />
+        <e p="System.ServiceModel.Web.dll" t="Include" />
+        <e p="System.ServiceProcess.dll" t="Include" />
+        <e p="System.Text.Encoding.CodePages.dll" t="Include" />
+        <e p="System.Text.Encoding.dll" t="Include" />
+        <e p="System.Text.Encoding.Extensions.dll" t="Include" />
+        <e p="System.Text.Encodings.Web.dll" t="Include" />
+        <e p="System.Text.Json.dll" t="Include" />
+        <e p="System.Text.RegularExpressions.dll" t="Include" />
+        <e p="System.Threading.Channels.dll" t="Include" />
+        <e p="System.Threading.dll" t="Include" />
+        <e p="System.Threading.Overlapped.dll" t="Include" />
+        <e p="System.Threading.Tasks.Dataflow.dll" t="Include" />
+        <e p="System.Threading.Tasks.dll" t="Include" />
+        <e p="System.Threading.Tasks.Extensions.dll" t="Include" />
+        <e p="System.Threading.Tasks.Parallel.dll" t="Include" />
+        <e p="System.Threading.Thread.dll" t="Include" />
+        <e p="System.Threading.ThreadPool.dll" t="Include" />
+        <e p="System.Threading.Timer.dll" t="Include" />
+        <e p="System.Transactions.dll" t="Include" />
+        <e p="System.Transactions.Local.dll" t="Include" />
+        <e p="System.ValueTuple.dll" t="Include" />
+        <e p="System.Web.dll" t="Include" />
+        <e p="System.Web.HttpUtility.dll" t="Include" />
+        <e p="System.Windows.dll" t="Include" />
+        <e p="System.Windows.Extensions.dll" t="Include" />
+        <e p="System.Xml.dll" t="Include" />
+        <e p="System.Xml.Linq.dll" t="Include" />
+        <e p="System.Xml.ReaderWriter.dll" t="Include" />
+        <e p="System.Xml.Serialization.dll" t="Include" />
+        <e p="System.Xml.XDocument.dll" t="Include" />
+        <e p="System.Xml.XmlDocument.dll" t="Include" />
+        <e p="System.Xml.XmlSerializer.dll" t="Include" />
+        <e p="System.Xml.XPath.dll" t="Include" />
+        <e p="System.Xml.XPath.XDocument.dll" t="Include" />
+        <e p="ucrtbase.dll" t="Include" />
+        <e p="web.config" t="Include" />
+        <e p="WindowsBase.dll" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="GoodDogFont" t="Include">
+                <e p="GOODDC__.woff" t="Include" />
+                <e p="GOODDP__.woff" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="Style.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="StaticImages" t="Include">
+              <e p="Home" t="Include">
+                <e p="dog1.jpg" t="Include" />
+                <e p="dog2.jpg" t="Include" />
+                <e p="dog3.jpg" t="Include" />
+                <e p="dog4.jpg" t="Include" />
+                <e p="dog5.jpg" t="Include" />
+                <e p="dog6.jpg" t="Include" />
+                <e p="registerDog.jpg" t="Include" />
+              </e>
+              <e p="Layout" t="Include">
+                <e p="header.jpg" t="Include" />
+              </e>
+              <e p="Register" t="Include">
+                <e p="register_dog.jpg" t="Include" />
+              </e>
+            </e>
+            <e p="UserImages" t="Include">
+              <e p="1aaf1da7-4dfc-4081-bfd6-4c259655cade" t="Include">
+                <e p="e483a29d-14e7-4b5e-a196-76e20fc13b34_andy.jpg" t="Include" />
+              </e>
+              <e p="63710009-094c-4823-abca-d0f9f059356b" t="Include">
+                <e p="6aad0b97-3db1-4d99-9952-a30d75dd7bb0_75339462_10220844991942611_5797667041657749504_o.jpg" t="Include" />
+              </e>
+              <e p="6e60c27c-6320-4141-bc6b-daa7c2fa4bc2" t="Include">
+                <e p="d8f56b74-3ada-450f-83b8-aff11b699e0d_61973088_10101242175986799_8157489049523716096_n.jpg" t="Include" />
+              </e>
+              <e p="9c8a6823-3a13-4d5e-b25c-c7dd928ea284" t="Include">
+                <e p="cd214b4a-b5c6-4b49-af2d-02424b0d69e4_56691479_10157165214402640_9016277372495724544_n.jpg" t="Include" />
+              </e>
+              <e p="d434cdca-93e3-4392-b890-e1dcf2416a6c" t="Include">
+                <e p="58968dec-13ab-4904-9975-fbea06881d02_70833829_3093580140715038_7249452750340096000_n.jpg" t="Include" />
+              </e>
+              <e p="ed8815b9-1fc4-4e73-aa7a-2464480561f4" t="Include">
+                <e p="f70725c5-0219-4b84-a19e-3371a3bd031b_71935019_10157444850813407_4369142759886422016_n.jpg" t="Include" />
+              </e>
+              <e p="noImage.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="CustomScript.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="js" t="Include">
+                <e p="dist" t="Include">
+                  <e p="alert.js" t="Include" />
+                  <e p="alert.js.map" t="Include" />
+                  <e p="button.js" t="Include" />
+                  <e p="button.js.map" t="Include" />
+                  <e p="carousel.js" t="Include" />
+                  <e p="carousel.js.map" t="Include" />
+                  <e p="collapse.js" t="Include" />
+                  <e p="collapse.js.map" t="Include" />
+                  <e p="dropdown.js" t="Include" />
+                  <e p="dropdown.js.map" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="index.js.map" t="Include" />
+                  <e p="modal.js" t="Include" />
+                  <e p="modal.js.map" t="Include" />
+                  <e p="popover.js" t="Include" />
+                  <e p="popover.js.map" t="Include" />
+                  <e p="scrollspy.js" t="Include" />
+                  <e p="scrollspy.js.map" t="Include" />
+                  <e p="tab.js" t="Include" />
+                  <e p="tab.js.map" t="Include" />
+                  <e p="toast.js" t="Include" />
+                  <e p="toast.js.map" t="Include" />
+                  <e p="tooltip.js" t="Include" />
+                  <e p="tooltip.js.map" t="Include" />
+                  <e p="util.js" t="Include" />
+                  <e p="util.js.map" t="Include" />
+                </e>
+                <e p="src" t="Include">
+                  <e p="alert.js" t="Include" />
+                  <e p="button.js" t="Include" />
+                  <e p="carousel.js" t="Include" />
+                  <e p="collapse.js" t="Include" />
+                  <e p="dropdown.js" t="Include" />
+                  <e p="index.js" t="Include" />
+                  <e p="modal.js" t="Include" />
+                  <e p="popover.js" t="Include" />
+                  <e p="scrollspy.js" t="Include" />
+                  <e p="tab.js" t="Include" />
+                  <e p="toast.js" t="Include" />
+                  <e p="tools" t="Include">
+                    <e p="sanitizer.js" t="Include" />
+                  </e>
+                  <e p="tooltip.js" t="Include" />
+                  <e p="util.js" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="README.md" t="Include" />
+              <e p="scss" t="Include">
+                <e p="_alert.scss" t="Include" />
+                <e p="_badge.scss" t="Include" />
+                <e p="_breadcrumb.scss" t="Include" />
+                <e p="_button-group.scss" t="Include" />
+                <e p="_buttons.scss" t="Include" />
+                <e p="_card.scss" t="Include" />
+                <e p="_carousel.scss" t="Include" />
+                <e p="_close.scss" t="Include" />
+                <e p="_code.scss" t="Include" />
+                <e p="_custom-forms.scss" t="Include" />
+                <e p="_dropdown.scss" t="Include" />
+                <e p="_forms.scss" t="Include" />
+                <e p="_functions.scss" t="Include" />
+                <e p="_grid.scss" t="Include" />
+                <e p="_images.scss" t="Include" />
+                <e p="_input-group.scss" t="Include" />
+                <e p="_jumbotron.scss" t="Include" />
+                <e p="_list-group.scss" t="Include" />
+                <e p="_media.scss" t="Include" />
+                <e p="_mixins.scss" t="Include" />
+                <e p="_modal.scss" t="Include" />
+                <e p="_nav.scss" t="Include" />
+                <e p="_navbar.scss" t="Include" />
+                <e p="_pagination.scss" t="Include" />
+                <e p="_popover.scss" t="Include" />
+                <e p="_print.scss" t="Include" />
+                <e p="_progress.scss" t="Include" />
+                <e p="_reboot.scss" t="Include" />
+                <e p="_root.scss" t="Include" />
+                <e p="_spinners.scss" t="Include" />
+                <e p="_tables.scss" t="Include" />
+                <e p="_toasts.scss" t="Include" />
+                <e p="_tooltip.scss" t="Include" />
+                <e p="_transitions.scss" t="Include" />
+                <e p="_type.scss" t="Include" />
+                <e p="_utilities.scss" t="Include" />
+                <e p="_variables.scss" t="Include" />
+                <e p="bootstrap-grid.scss" t="Include" />
+                <e p="bootstrap-reboot.scss" t="Include" />
+                <e p="bootstrap.scss" t="Include" />
+                <e p="mixins" t="Include">
+                  <e p="_alert.scss" t="Include" />
+                  <e p="_background-variant.scss" t="Include" />
+                  <e p="_badge.scss" t="Include" />
+                  <e p="_border-radius.scss" t="Include" />
+                  <e p="_box-shadow.scss" t="Include" />
+                  <e p="_breakpoints.scss" t="Include" />
+                  <e p="_buttons.scss" t="Include" />
+                  <e p="_caret.scss" t="Include" />
+                  <e p="_clearfix.scss" t="Include" />
+                  <e p="_deprecate.scss" t="Include" />
+                  <e p="_float.scss" t="Include" />
+                  <e p="_forms.scss" t="Include" />
+                  <e p="_gradients.scss" t="Include" />
+                  <e p="_grid-framework.scss" t="Include" />
+                  <e p="_grid.scss" t="Include" />
+                  <e p="_hover.scss" t="Include" />
+                  <e p="_image.scss" t="Include" />
+                  <e p="_list-group.scss" t="Include" />
+                  <e p="_lists.scss" t="Include" />
+                  <e p="_nav-divider.scss" t="Include" />
+                  <e p="_pagination.scss" t="Include" />
+                  <e p="_reset-text.scss" t="Include" />
+                  <e p="_resize.scss" t="Include" />
+                  <e p="_screen-reader.scss" t="Include" />
+                  <e p="_size.scss" t="Include" />
+                  <e p="_table-row.scss" t="Include" />
+                  <e p="_text-emphasis.scss" t="Include" />
+                  <e p="_text-hide.scss" t="Include" />
+                  <e p="_text-truncate.scss" t="Include" />
+                  <e p="_transition.scss" t="Include" />
+                  <e p="_visibility.scss" t="Include" />
+                </e>
+                <e p="utilities" t="Include">
+                  <e p="_align.scss" t="Include" />
+                  <e p="_background.scss" t="Include" />
+                  <e p="_borders.scss" t="Include" />
+                  <e p="_clearfix.scss" t="Include" />
+                  <e p="_display.scss" t="Include" />
+                  <e p="_embed.scss" t="Include" />
+                  <e p="_flex.scss" t="Include" />
+                  <e p="_float.scss" t="Include" />
+                  <e p="_overflow.scss" t="Include" />
+                  <e p="_position.scss" t="Include" />
+                  <e p="_screenreaders.scss" t="Include" />
+                  <e p="_shadows.scss" t="Include" />
+                  <e p="_sizing.scss" t="Include" />
+                  <e p="_spacing.scss" t="Include" />
+                  <e p="_stretched-link.scss" t="Include" />
+                  <e p="_text.scss" t="Include" />
+                  <e p="_visibility.scss" t="Include" />
+                </e>
+                <e p="vendor" t="Include">
+                  <e p="_rfs.scss" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="jquery" t="Include">
+              <e p="core.js" t="Include" />
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.min.map" t="Include" />
+              <e p="jquery.slim.js" t="Include" />
+              <e p="jquery.slim.min.js" t="Include" />
+              <e p="jquery.slim.min.map" t="Include" />
+            </e>
+            <e p="jquery-validate" t="Include">
+              <e p="additional-methods.js" t="Include" />
+              <e p="additional-methods.min.js" t="Include" />
+              <e p="jquery.validate.js" t="Include" />
+              <e p="jquery.validate.min.js" t="Include" />
+              <e p="localization" t="Include">
+                <e p="messages_ar.js" t="Include" />
+                <e p="messages_ar.min.js" t="Include" />
+                <e p="messages_az.js" t="Include" />
+                <e p="messages_az.min.js" t="Include" />
+                <e p="messages_bg.js" t="Include" />
+                <e p="messages_bg.min.js" t="Include" />
+                <e p="messages_bn_BD.js" t="Include" />
+                <e p="messages_bn_BD.min.js" t="Include" />
+                <e p="messages_ca.js" t="Include" />
+                <e p="messages_ca.min.js" t="Include" />
+                <e p="messages_cs.js" t="Include" />
+                <e p="messages_cs.min.js" t="Include" />
+                <e p="messages_da.js" t="Include" />
+                <e p="messages_da.min.js" t="Include" />
+                <e p="messages_de.js" t="Include" />
+                <e p="messages_de.min.js" t="Include" />
+                <e p="messages_el.js" t="Include" />
+                <e p="messages_el.min.js" t="Include" />
+                <e p="messages_es.js" t="Include" />
+                <e p="messages_es.min.js" t="Include" />
+                <e p="messages_es_AR.js" t="Include" />
+                <e p="messages_es_AR.min.js" t="Include" />
+                <e p="messages_es_PE.js" t="Include" />
+                <e p="messages_es_PE.min.js" t="Include" />
+                <e p="messages_et.js" t="Include" />
+                <e p="messages_et.min.js" t="Include" />
+                <e p="messages_eu.js" t="Include" />
+                <e p="messages_eu.min.js" t="Include" />
+                <e p="messages_fa.js" t="Include" />
+                <e p="messages_fa.min.js" t="Include" />
+                <e p="messages_fi.js" t="Include" />
+                <e p="messages_fi.min.js" t="Include" />
+                <e p="messages_fr.js" t="Include" />
+                <e p="messages_fr.min.js" t="Include" />
+                <e p="messages_ge.js" t="Include" />
+                <e p="messages_ge.min.js" t="Include" />
+                <e p="messages_gl.js" t="Include" />
+                <e p="messages_gl.min.js" t="Include" />
+                <e p="messages_he.js" t="Include" />
+                <e p="messages_he.min.js" t="Include" />
+                <e p="messages_hr.js" t="Include" />
+                <e p="messages_hr.min.js" t="Include" />
+                <e p="messages_hu.js" t="Include" />
+                <e p="messages_hu.min.js" t="Include" />
+                <e p="messages_hy_AM.js" t="Include" />
+                <e p="messages_hy_AM.min.js" t="Include" />
+                <e p="messages_id.js" t="Include" />
+                <e p="messages_id.min.js" t="Include" />
+                <e p="messages_is.js" t="Include" />
+                <e p="messages_is.min.js" t="Include" />
+                <e p="messages_it.js" t="Include" />
+                <e p="messages_it.min.js" t="Include" />
+                <e p="messages_ja.js" t="Include" />
+                <e p="messages_ja.min.js" t="Include" />
+                <e p="messages_ka.js" t="Include" />
+                <e p="messages_ka.min.js" t="Include" />
+                <e p="messages_kk.js" t="Include" />
+                <e p="messages_kk.min.js" t="Include" />
+                <e p="messages_ko.js" t="Include" />
+                <e p="messages_ko.min.js" t="Include" />
+                <e p="messages_lt.js" t="Include" />
+                <e p="messages_lt.min.js" t="Include" />
+                <e p="messages_lv.js" t="Include" />
+                <e p="messages_lv.min.js" t="Include" />
+                <e p="messages_mk.js" t="Include" />
+                <e p="messages_mk.min.js" t="Include" />
+                <e p="messages_my.js" t="Include" />
+                <e p="messages_my.min.js" t="Include" />
+                <e p="messages_nl.js" t="Include" />
+                <e p="messages_nl.min.js" t="Include" />
+                <e p="messages_no.js" t="Include" />
+                <e p="messages_no.min.js" t="Include" />
+                <e p="messages_pl.js" t="Include" />
+                <e p="messages_pl.min.js" t="Include" />
+                <e p="messages_pt_BR.js" t="Include" />
+                <e p="messages_pt_BR.min.js" t="Include" />
+                <e p="messages_pt_PT.js" t="Include" />
+                <e p="messages_pt_PT.min.js" t="Include" />
+                <e p="messages_ro.js" t="Include" />
+                <e p="messages_ro.min.js" t="Include" />
+                <e p="messages_ru.js" t="Include" />
+                <e p="messages_ru.min.js" t="Include" />
+                <e p="messages_sd.js" t="Include" />
+                <e p="messages_sd.min.js" t="Include" />
+                <e p="messages_si.js" t="Include" />
+                <e p="messages_si.min.js" t="Include" />
+                <e p="messages_sk.js" t="Include" />
+                <e p="messages_sk.min.js" t="Include" />
+                <e p="messages_sl.js" t="Include" />
+                <e p="messages_sl.min.js" t="Include" />
+                <e p="messages_sr.js" t="Include" />
+                <e p="messages_sr.min.js" t="Include" />
+                <e p="messages_sr_lat.js" t="Include" />
+                <e p="messages_sr_lat.min.js" t="Include" />
+                <e p="messages_sv.js" t="Include" />
+                <e p="messages_sv.min.js" t="Include" />
+                <e p="messages_th.js" t="Include" />
+                <e p="messages_th.min.js" t="Include" />
+                <e p="messages_tj.js" t="Include" />
+                <e p="messages_tj.min.js" t="Include" />
+                <e p="messages_tr.js" t="Include" />
+                <e p="messages_tr.min.js" t="Include" />
+                <e p="messages_uk.js" t="Include" />
+                <e p="messages_uk.min.js" t="Include" />
+                <e p="messages_ur.js" t="Include" />
+                <e p="messages_ur.min.js" t="Include" />
+                <e p="messages_vi.js" t="Include" />
+                <e p="messages_vi.min.js" t="Include" />
+                <e p="messages_zh.js" t="Include" />
+                <e p="messages_zh.min.js" t="Include" />
+                <e p="messages_zh_TW.js" t="Include" />
+                <e p="messages_zh_TW.min.js" t="Include" />
+                <e p="methods_de.js" t="Include" />
+                <e p="methods_de.min.js" t="Include" />
+                <e p="methods_es_CL.js" t="Include" />
+                <e p="methods_es_CL.min.js" t="Include" />
+                <e p="methods_fi.js" t="Include" />
+                <e p="methods_fi.min.js" t="Include" />
+                <e p="methods_it.js" t="Include" />
+                <e p="methods_it.min.js" t="Include" />
+                <e p="methods_nl.js" t="Include" />
+                <e p="methods_nl.min.js" t="Include" />
+                <e p="methods_pt.js" t="Include" />
+                <e p="methods_pt.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+            <e p="sass.js" t="Include">
+              <e p="sass.js" t="Include" />
+              <e p="sass.min.js" t="Include" />
+              <e p="sass.min.js.map" t="Include" />
+              <e p="sass.sync.js" t="Include" />
+              <e p="sass.sync.min.js" t="Include" />
+              <e p="sass.sync.min.js.map" t="Include" />
+              <e p="sass.worker.js" t="Include" />
+              <e p="sass.worker.min.js" t="Include" />
+              <e p="sass.worker.min.js.map" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="Account" t="Include">
+          <e p="DogDetailsViewModel.cs" t="Include" />
+          <e p="EditProfileViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="RegisterDogViewModel.cs" t="Include" />
+          <e p="RegisterViewModel.cs" t="Include" />
+          <e p="UserDetailsViewModel.cs" t="Include" />
+        </e>
+        <e p="Administration" t="Include">
+          <e p="CreateRoleViewModel.cs" t="Include" />
+          <e p="EditRoleViewModel.cs" t="Include" />
+          <e p="EditUserViewModel.cs" t="Include" />
+          <e p="UserRolesViewModel.cs" t="Include" />
+          <e p="UserRoleViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Account" t="Include">
+          <e p="EditProfile.cshtml" t="Include" />
+          <e p="Login.cshtml" t="Include" />
+          <e p="Register.cshtml" t="Include" />
+          <e p="RegisterDog.cshtml" t="Include" />
+          <e p="ViewDog.cshtml" t="Include" />
+          <e p="ViewProfile.cshtml" t="Include" />
+        </e>
+        <e p="Administration" t="Include">
+          <e p="CreateRole.cshtml" t="Include" />
+          <e p="EditRole.cshtml" t="Include" />
+          <e p="EditUser.cshtml" t="Include" />
+          <e p="EditUsersInRole.cshtml" t="Include" />
+          <e p="ListRoles.cshtml" t="Include" />
+          <e p="ListUsers.cshtml" t="Include" />
+          <e p="ManageUserRoles.cshtml" t="Include" />
+        </e>
+        <e p="Error" t="Include">
+          <e p="AccessDenied.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="NotFound.cshtml" t="Include" />
+          <e p="UserNotFound.cshtml" t="Include" />
+        </e>
+        <e p="Home" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Landing.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="wwwroot" t="Include">
+        <e p="Assets" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="GoodDogFont" t="Include">
+              <e p="GOODDC__.woff" t="Include" />
+              <e p="GOODDP__.woff" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="css" t="Include">
+          <e p="Style.css" t="Include" />
+        </e>
+        <e p="images" t="Include">
+          <e p="StaticImages" t="Include">
+            <e p="Home" t="Include">
+              <e p="dog1.jpg" t="Include" />
+              <e p="dog2.jpg" t="Include" />
+              <e p="dog3.jpg" t="Include" />
+              <e p="dog4.jpg" t="Include" />
+              <e p="dog5.jpg" t="Include" />
+              <e p="dog6.jpg" t="Include" />
+              <e p="registerDog.jpg" t="Include" />
+            </e>
+            <e p="Layout" t="Include">
+              <e p="header.jpg" t="Include" />
+            </e>
+            <e p="Register" t="Include">
+              <e p="register_dog.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="UserImages" t="Include">
+            <e p="1aaf1da7-4dfc-4081-bfd6-4c259655cade" t="Include">
+              <e p="e483a29d-14e7-4b5e-a196-76e20fc13b34_andy.jpg" t="Include" />
+            </e>
+            <e p="63710009-094c-4823-abca-d0f9f059356b" t="Include">
+              <e p="6aad0b97-3db1-4d99-9952-a30d75dd7bb0_75339462_10220844991942611_5797667041657749504_o.jpg" t="Include" />
+            </e>
+            <e p="6e60c27c-6320-4141-bc6b-daa7c2fa4bc2" t="Include">
+              <e p="d8f56b74-3ada-450f-83b8-aff11b699e0d_61973088_10101242175986799_8157489049523716096_n.jpg" t="Include" />
+            </e>
+            <e p="9c8a6823-3a13-4d5e-b25c-c7dd928ea284" t="Include">
+              <e p="cd214b4a-b5c6-4b49-af2d-02424b0d69e4_56691479_10157165214402640_9016277372495724544_n.jpg" t="Include" />
+            </e>
+            <e p="d434cdca-93e3-4392-b890-e1dcf2416a6c" t="Include">
+              <e p="58968dec-13ab-4904-9975-fbea06881d02_70833829_3093580140715038_7249452750340096000_n.jpg" t="Include" />
+            </e>
+            <e p="ed8815b9-1fc4-4e73-aa7a-2464480561f4" t="Include">
+              <e p="f70725c5-0219-4b84-a19e-3371a3bd031b_71935019_10157444850813407_4369142759886422016_n.jpg" t="Include" />
+            </e>
+            <e p="noImage.jpg" t="Include" />
+          </e>
+        </e>
+        <e p="js" t="Include">
+          <e p="CustomScript.js" t="Include" />
+        </e>
+        <e p="lib" t="Include">
+          <e p="bootstrap" t="Include">
+            <e p="dist" t="Include">
+              <e p="css" t="Include">
+                <e p="bootstrap-grid.css" t="Include" />
+                <e p="bootstrap-grid.css.map" t="Include" />
+                <e p="bootstrap-grid.min.css" t="Include" />
+                <e p="bootstrap-grid.min.css.map" t="Include" />
+                <e p="bootstrap-reboot.css" t="Include" />
+                <e p="bootstrap-reboot.css.map" t="Include" />
+                <e p="bootstrap-reboot.min.css" t="Include" />
+                <e p="bootstrap-reboot.min.css.map" t="Include" />
+                <e p="bootstrap.css" t="Include" />
+                <e p="bootstrap.css.map" t="Include" />
+                <e p="bootstrap.min.css" t="Include" />
+                <e p="bootstrap.min.css.map" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="bootstrap.bundle.js" t="Include" />
+                <e p="bootstrap.bundle.js.map" t="Include" />
+                <e p="bootstrap.bundle.min.js" t="Include" />
+                <e p="bootstrap.bundle.min.js.map" t="Include" />
+                <e p="bootstrap.js" t="Include" />
+                <e p="bootstrap.js.map" t="Include" />
+                <e p="bootstrap.min.js" t="Include" />
+                <e p="bootstrap.min.js.map" t="Include" />
+              </e>
+            </e>
+            <e p="js" t="Include">
+              <e p="dist" t="Include">
+                <e p="alert.js" t="Include" />
+                <e p="alert.js.map" t="Include" />
+                <e p="button.js" t="Include" />
+                <e p="button.js.map" t="Include" />
+                <e p="carousel.js" t="Include" />
+                <e p="carousel.js.map" t="Include" />
+                <e p="collapse.js" t="Include" />
+                <e p="collapse.js.map" t="Include" />
+                <e p="dropdown.js" t="Include" />
+                <e p="dropdown.js.map" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="index.js.map" t="Include" />
+                <e p="modal.js" t="Include" />
+                <e p="modal.js.map" t="Include" />
+                <e p="popover.js" t="Include" />
+                <e p="popover.js.map" t="Include" />
+                <e p="scrollspy.js" t="Include" />
+                <e p="scrollspy.js.map" t="Include" />
+                <e p="tab.js" t="Include" />
+                <e p="tab.js.map" t="Include" />
+                <e p="toast.js" t="Include" />
+                <e p="toast.js.map" t="Include" />
+                <e p="tooltip.js" t="Include" />
+                <e p="tooltip.js.map" t="Include" />
+                <e p="util.js" t="Include" />
+                <e p="util.js.map" t="Include" />
+              </e>
+              <e p="src" t="Include">
+                <e p="alert.js" t="Include" />
+                <e p="button.js" t="Include" />
+                <e p="carousel.js" t="Include" />
+                <e p="collapse.js" t="Include" />
+                <e p="dropdown.js" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="modal.js" t="Include" />
+                <e p="popover.js" t="Include" />
+                <e p="scrollspy.js" t="Include" />
+                <e p="tab.js" t="Include" />
+                <e p="toast.js" t="Include" />
+                <e p="tools" t="Include">
+                  <e p="sanitizer.js" t="Include" />
+                </e>
+                <e p="tooltip.js" t="Include" />
+                <e p="util.js" t="Include" />
+              </e>
+            </e>
+            <e p="LICENSE" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="README.md" t="Include" />
+            <e p="scss" t="Include">
+              <e p="_alert.scss" t="Include" />
+              <e p="_badge.scss" t="Include" />
+              <e p="_breadcrumb.scss" t="Include" />
+              <e p="_button-group.scss" t="Include" />
+              <e p="_buttons.scss" t="Include" />
+              <e p="_card.scss" t="Include" />
+              <e p="_carousel.scss" t="Include" />
+              <e p="_close.scss" t="Include" />
+              <e p="_code.scss" t="Include" />
+              <e p="_custom-forms.scss" t="Include" />
+              <e p="_dropdown.scss" t="Include" />
+              <e p="_forms.scss" t="Include" />
+              <e p="_functions.scss" t="Include" />
+              <e p="_grid.scss" t="Include" />
+              <e p="_images.scss" t="Include" />
+              <e p="_input-group.scss" t="Include" />
+              <e p="_jumbotron.scss" t="Include" />
+              <e p="_list-group.scss" t="Include" />
+              <e p="_media.scss" t="Include" />
+              <e p="_mixins.scss" t="Include" />
+              <e p="_modal.scss" t="Include" />
+              <e p="_nav.scss" t="Include" />
+              <e p="_navbar.scss" t="Include" />
+              <e p="_pagination.scss" t="Include" />
+              <e p="_popover.scss" t="Include" />
+              <e p="_print.scss" t="Include" />
+              <e p="_progress.scss" t="Include" />
+              <e p="_reboot.scss" t="Include" />
+              <e p="_root.scss" t="Include" />
+              <e p="_spinners.scss" t="Include" />
+              <e p="_tables.scss" t="Include" />
+              <e p="_toasts.scss" t="Include" />
+              <e p="_tooltip.scss" t="Include" />
+              <e p="_transitions.scss" t="Include" />
+              <e p="_type.scss" t="Include" />
+              <e p="_utilities.scss" t="Include" />
+              <e p="_variables.scss" t="Include" />
+              <e p="bootstrap-grid.scss" t="Include" />
+              <e p="bootstrap-reboot.scss" t="Include" />
+              <e p="bootstrap.scss" t="Include" />
+              <e p="mixins" t="Include">
+                <e p="_alert.scss" t="Include" />
+                <e p="_background-variant.scss" t="Include" />
+                <e p="_badge.scss" t="Include" />
+                <e p="_border-radius.scss" t="Include" />
+                <e p="_box-shadow.scss" t="Include" />
+                <e p="_breakpoints.scss" t="Include" />
+                <e p="_buttons.scss" t="Include" />
+                <e p="_caret.scss" t="Include" />
+                <e p="_clearfix.scss" t="Include" />
+                <e p="_deprecate.scss" t="Include" />
+                <e p="_float.scss" t="Include" />
+                <e p="_forms.scss" t="Include" />
+                <e p="_gradients.scss" t="Include" />
+                <e p="_grid-framework.scss" t="Include" />
+                <e p="_grid.scss" t="Include" />
+                <e p="_hover.scss" t="Include" />
+                <e p="_image.scss" t="Include" />
+                <e p="_list-group.scss" t="Include" />
+                <e p="_lists.scss" t="Include" />
+                <e p="_nav-divider.scss" t="Include" />
+                <e p="_pagination.scss" t="Include" />
+                <e p="_reset-text.scss" t="Include" />
+                <e p="_resize.scss" t="Include" />
+                <e p="_screen-reader.scss" t="Include" />
+                <e p="_size.scss" t="Include" />
+                <e p="_table-row.scss" t="Include" />
+                <e p="_text-emphasis.scss" t="Include" />
+                <e p="_text-hide.scss" t="Include" />
+                <e p="_text-truncate.scss" t="Include" />
+                <e p="_transition.scss" t="Include" />
+                <e p="_visibility.scss" t="Include" />
+              </e>
+              <e p="utilities" t="Include">
+                <e p="_align.scss" t="Include" />
+                <e p="_background.scss" t="Include" />
+                <e p="_borders.scss" t="Include" />
+                <e p="_clearfix.scss" t="Include" />
+                <e p="_display.scss" t="Include" />
+                <e p="_embed.scss" t="Include" />
+                <e p="_flex.scss" t="Include" />
+                <e p="_float.scss" t="Include" />
+                <e p="_overflow.scss" t="Include" />
+                <e p="_position.scss" t="Include" />
+                <e p="_screenreaders.scss" t="Include" />
+                <e p="_shadows.scss" t="Include" />
+                <e p="_sizing.scss" t="Include" />
+                <e p="_spacing.scss" t="Include" />
+                <e p="_stretched-link.scss" t="Include" />
+                <e p="_text.scss" t="Include" />
+                <e p="_visibility.scss" t="Include" />
+              </e>
+              <e p="vendor" t="Include">
+                <e p="_rfs.scss" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="jquery" t="Include">
+            <e p="core.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.min.js" t="Include" />
+            <e p="jquery.min.map" t="Include" />
+            <e p="jquery.slim.js" t="Include" />
+            <e p="jquery.slim.min.js" t="Include" />
+            <e p="jquery.slim.min.map" t="Include" />
+          </e>
+          <e p="jquery-validate" t="Include">
+            <e p="additional-methods.js" t="Include" />
+            <e p="additional-methods.min.js" t="Include" />
+            <e p="jquery.validate.js" t="Include" />
+            <e p="jquery.validate.min.js" t="Include" />
+            <e p="localization" t="Include">
+              <e p="messages_ar.js" t="Include" />
+              <e p="messages_ar.min.js" t="Include" />
+              <e p="messages_az.js" t="Include" />
+              <e p="messages_az.min.js" t="Include" />
+              <e p="messages_bg.js" t="Include" />
+              <e p="messages_bg.min.js" t="Include" />
+              <e p="messages_bn_BD.js" t="Include" />
+              <e p="messages_bn_BD.min.js" t="Include" />
+              <e p="messages_ca.js" t="Include" />
+              <e p="messages_ca.min.js" t="Include" />
+              <e p="messages_cs.js" t="Include" />
+              <e p="messages_cs.min.js" t="Include" />
+              <e p="messages_da.js" t="Include" />
+              <e p="messages_da.min.js" t="Include" />
+              <e p="messages_de.js" t="Include" />
+              <e p="messages_de.min.js" t="Include" />
+              <e p="messages_el.js" t="Include" />
+              <e p="messages_el.min.js" t="Include" />
+              <e p="messages_es.js" t="Include" />
+              <e p="messages_es.min.js" t="Include" />
+              <e p="messages_es_AR.js" t="Include" />
+              <e p="messages_es_AR.min.js" t="Include" />
+              <e p="messages_es_PE.js" t="Include" />
+              <e p="messages_es_PE.min.js" t="Include" />
+              <e p="messages_et.js" t="Include" />
+              <e p="messages_et.min.js" t="Include" />
+              <e p="messages_eu.js" t="Include" />
+              <e p="messages_eu.min.js" t="Include" />
+              <e p="messages_fa.js" t="Include" />
+              <e p="messages_fa.min.js" t="Include" />
+              <e p="messages_fi.js" t="Include" />
+              <e p="messages_fi.min.js" t="Include" />
+              <e p="messages_fr.js" t="Include" />
+              <e p="messages_fr.min.js" t="Include" />
+              <e p="messages_ge.js" t="Include" />
+              <e p="messages_ge.min.js" t="Include" />
+              <e p="messages_gl.js" t="Include" />
+              <e p="messages_gl.min.js" t="Include" />
+              <e p="messages_he.js" t="Include" />
+              <e p="messages_he.min.js" t="Include" />
+              <e p="messages_hr.js" t="Include" />
+              <e p="messages_hr.min.js" t="Include" />
+              <e p="messages_hu.js" t="Include" />
+              <e p="messages_hu.min.js" t="Include" />
+              <e p="messages_hy_AM.js" t="Include" />
+              <e p="messages_hy_AM.min.js" t="Include" />
+              <e p="messages_id.js" t="Include" />
+              <e p="messages_id.min.js" t="Include" />
+              <e p="messages_is.js" t="Include" />
+              <e p="messages_is.min.js" t="Include" />
+              <e p="messages_it.js" t="Include" />
+              <e p="messages_it.min.js" t="Include" />
+              <e p="messages_ja.js" t="Include" />
+              <e p="messages_ja.min.js" t="Include" />
+              <e p="messages_ka.js" t="Include" />
+              <e p="messages_ka.min.js" t="Include" />
+              <e p="messages_kk.js" t="Include" />
+              <e p="messages_kk.min.js" t="Include" />
+              <e p="messages_ko.js" t="Include" />
+              <e p="messages_ko.min.js" t="Include" />
+              <e p="messages_lt.js" t="Include" />
+              <e p="messages_lt.min.js" t="Include" />
+              <e p="messages_lv.js" t="Include" />
+              <e p="messages_lv.min.js" t="Include" />
+              <e p="messages_mk.js" t="Include" />
+              <e p="messages_mk.min.js" t="Include" />
+              <e p="messages_my.js" t="Include" />
+              <e p="messages_my.min.js" t="Include" />
+              <e p="messages_nl.js" t="Include" />
+              <e p="messages_nl.min.js" t="Include" />
+              <e p="messages_no.js" t="Include" />
+              <e p="messages_no.min.js" t="Include" />
+              <e p="messages_pl.js" t="Include" />
+              <e p="messages_pl.min.js" t="Include" />
+              <e p="messages_pt_BR.js" t="Include" />
+              <e p="messages_pt_BR.min.js" t="Include" />
+              <e p="messages_pt_PT.js" t="Include" />
+              <e p="messages_pt_PT.min.js" t="Include" />
+              <e p="messages_ro.js" t="Include" />
+              <e p="messages_ro.min.js" t="Include" />
+              <e p="messages_ru.js" t="Include" />
+              <e p="messages_ru.min.js" t="Include" />
+              <e p="messages_sd.js" t="Include" />
+              <e p="messages_sd.min.js" t="Include" />
+              <e p="messages_si.js" t="Include" />
+              <e p="messages_si.min.js" t="Include" />
+              <e p="messages_sk.js" t="Include" />
+              <e p="messages_sk.min.js" t="Include" />
+              <e p="messages_sl.js" t="Include" />
+              <e p="messages_sl.min.js" t="Include" />
+              <e p="messages_sr.js" t="Include" />
+              <e p="messages_sr.min.js" t="Include" />
+              <e p="messages_sr_lat.js" t="Include" />
+              <e p="messages_sr_lat.min.js" t="Include" />
+              <e p="messages_sv.js" t="Include" />
+              <e p="messages_sv.min.js" t="Include" />
+              <e p="messages_th.js" t="Include" />
+              <e p="messages_th.min.js" t="Include" />
+              <e p="messages_tj.js" t="Include" />
+              <e p="messages_tj.min.js" t="Include" />
+              <e p="messages_tr.js" t="Include" />
+              <e p="messages_tr.min.js" t="Include" />
+              <e p="messages_uk.js" t="Include" />
+              <e p="messages_uk.min.js" t="Include" />
+              <e p="messages_ur.js" t="Include" />
+              <e p="messages_ur.min.js" t="Include" />
+              <e p="messages_vi.js" t="Include" />
+              <e p="messages_vi.min.js" t="Include" />
+              <e p="messages_zh.js" t="Include" />
+              <e p="messages_zh.min.js" t="Include" />
+              <e p="messages_zh_TW.js" t="Include" />
+              <e p="messages_zh_TW.min.js" t="Include" />
+              <e p="methods_de.js" t="Include" />
+              <e p="methods_de.min.js" t="Include" />
+              <e p="methods_es_CL.js" t="Include" />
+              <e p="methods_es_CL.min.js" t="Include" />
+              <e p="methods_fi.js" t="Include" />
+              <e p="methods_fi.min.js" t="Include" />
+              <e p="methods_it.js" t="Include" />
+              <e p="methods_it.min.js" t="Include" />
+              <e p="methods_nl.js" t="Include" />
+              <e p="methods_nl.min.js" t="Include" />
+              <e p="methods_pt.js" t="Include" />
+              <e p="methods_pt.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="jquery-validation-unobtrusive" t="Include">
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          </e>
+          <e p="sass.js" t="Include">
+            <e p="sass.js" t="Include" />
+            <e p="sass.min.js" t="Include" />
+            <e p="sass.min.js.map" t="Include" />
+            <e p="sass.sync.js" t="Include" />
+            <e p="sass.sync.min.js" t="Include" />
+            <e p="sass.sync.min.js.map" t="Include" />
+            <e p="sass.worker.js" t="Include" />
+            <e p="sass.worker.min.js" t="Include" />
+            <e p="sass.worker.min.js.map" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

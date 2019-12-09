@@ -1,0 +1,113 @@
+﻿@using ADogsLifeWebApplication.Models.Users
+@inject SignInManager<ApplicationUser> SignInManager;
+@inject UserManager<ApplicationUser> UserManager;
+
+
+@{
+    ViewBag.Title = "User List";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div>
+            <h1 class="card-header" id="indexUserHeader">Doggo Parents</h1>
+        </div>
+        <div class="row indexRow">
+            <div class="col m-1 column-align-left">
+                <div class="card-deck">
+                    @foreach (ApplicationUser user in UserManager.Users)
+                    {
+                        @if (User.Identity.Name != user.UserName)
+                        {
+                            string photoPath = "../Images/UserImages/" + user.Id + "/" + (user.PhotoPath ?? "noImage.jpg");
+                            <form enctype="multipart/form-data" method="post" asp-controller="Administration" asp-action="DeleteUserOnUserIndexPage" asp-route-id="@user.Id">
+                                <div class="container m-4">
+                                    <div class="front" style="background-image: url(@photoPath)">
+                                        <div class="inner">
+                                            <p style="font-size: 40px">@user.FirstName @user.LastName</p>
+                                            <span style="font-size: 25px">@user.Country</span>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="inner">
+                                            <div class="row">
+                                                <a asp-controller="Account" asp-action="ViewProfile" asp-route-id="@user.Id" title="View Profile" class="btn btn-dark m-1">View</a>
+                                                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                {
+                                                    <a asp-controller="Administration" asp-action="EditUser" asp-route-id="@user.Id" title="Edit Profile" class="btn btn-dark m-1">Edit</a>
+                                                }
+                                            </div>
+                                            <div class="row">
+                                                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                {
+                                                    <span class="row" id="confirmDeleteSpan_@user.Id" style="display: none">
+                                                        <span>Are you sure you want to delete?</span>
+                                                        <button type="submit" class="btn btn-danger m-1">Yes</button>
+                                                        <a href="javascript:void();" class="btn btn-dark m-1" onclick="confirmDelete('@user.Id', false)">No</a>
+                                                    </span>
+                                                    <span id="deleteSpan_@user.Id">
+                                                        <a href="javascript:void();" class="btn btn-danger m-1" onclick="confirmDelete('@user.Id', true)">Delete</a>
+                                                    </span>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="col m-1 column-align-right">
+                @foreach (ApplicationUser user in UserManager.Users)
+                {
+                    @if (user.UserName == User.Identity.Name)
+                    {
+                        string photoPath = "../Images/UserImages/" + user.Id + "/" + (user.PhotoPath ?? "noImage.jpg");
+                        <div class="list-card">
+                            <h1 class="golden-text-shadow prop-headers">@user.FullName</h1>
+                            <hr/>
+                            <img src="@photoPath" class="img-list-user-page" alt=""/>
+                            <hr/>
+                            <p>@user.Description</p>
+                            <div>
+                                <a class="btn btn-dark" asp-controller="Account" asp-action="ViewProfile" asp-route-id="@user.Id">View</a>
+                                <a class="btn btn-dark" asp-controller="Account" asp-action="EditProfile" asp-route-id="@user.Id">Edit</a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="list-card">
+                            <h3 class="prop-headers">Popular Post</h3>
+                            <hr/>
+                            <div class="fakeimg">
+                                <p>Image</p>
+                            </div>
+                            <div class="fakeimg">
+                                <p>Image</p>
+                            </div>
+                            <div class="fakeimg">
+                                <p>Image</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="list-card">
+                            <h3 class="prop-headers">Follow Me</h3>
+                            <hr/>
+                            <p>Some text..</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/CustomScript.js"></script>
+
+    <script>
+        var user = @UserManager.Users.Select(user => user.UserName == User.Identity.Name);
+        document.getElementById("getUserPhoto").innerHTML = user.PhotoPath;
+    </script>
+}

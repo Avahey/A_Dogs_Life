@@ -1,0 +1,15 @@
+﻿﻿@if (ViewBag.ErrorTitle == null)
+{
+    <div class="container" style="text-align: center">
+        <h3>An occured while processing your request.</h3>
+        <h3>The support team has been notified and we are working on the fix.</h3>
+        <h5>Please contact us on john@gamesuit.com</h5>
+    </div>
+}
+else
+{
+    <div class="container" style="text-align: center">
+        <h1 class="text-danger">@ViewBag.ErrorTitle</h1>
+        <h6 class="text-danger">@ViewBag.ErrorMessage</h6>
+    </div>
+}
